@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: artist-service
+  profiles:
+    active: dev
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
+
+spring:
+  jpa:
+    show-sql: true
