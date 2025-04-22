@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ui-service
+  profiles:
+    active: dev
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+  cloud:
+    config:
+      enabled: true
+
+server:
+  port: 8084
