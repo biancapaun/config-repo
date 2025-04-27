@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: contract-service
+  profiles:
+    active: dev
+  jpa:
+    show-sql: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
