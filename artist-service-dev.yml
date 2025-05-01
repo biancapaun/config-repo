@@ -32,8 +32,8 @@ management:
       exposure:
         include: "*"
   endpoint:
-    health:
-      show-details: always
+    diskspace:
+      enabled: false
 
 
     
